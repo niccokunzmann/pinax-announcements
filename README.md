@@ -273,6 +273,10 @@ Since `bootstrap` template tags and filters are no longer loaded, you'll also ne
 
 ## Change Log
 
+### 4.0.2
+
+* use importlib.metadata instead of pkg_resources if available #75
+
 ### 4.0.1
 
 * Support Django 4.0
